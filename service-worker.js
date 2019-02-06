@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jgrantbrown.github.io/deploy_react_app/precache-manifest.46e11c1f816acb3c23925e6874d45f84.js"
+  "/deploy_react_app/precache-manifest.617198daef5c7f72f7c193bce4306723.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jgrantbrown.github.io/deploy_react_app/index.html", {
+workbox.routing.registerNavigationRoute("/deploy_react_app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
